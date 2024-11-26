@@ -6,7 +6,7 @@ Create different types of graphs (curves, surfaces) to represent simple mathemat
 
 ## Installation
 
-Double-click to execute MATLAB and run the app.
+Download and double-click on the GraphPlot.mlapp to execute MATLAB and run the app. Alternatively, you can find the complete code in the GraphPlot_Code.m file.
 
 ## Usage
 
