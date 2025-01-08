@@ -176,7 +176,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             app.xminSpinnerLabel = uilabel(app.DPlotTab);
             app.xminSpinnerLabel.HorizontalAlignment = 'right';
             app.xminSpinnerLabel.FontColor = [0.0431 0.0392 0.051];
-            app.xminSpinnerLabel.Position = [37 442 31 22];
+            app.xminSpinnerLabel.Position = [39 378 31 22];
             app.xminSpinnerLabel.Text = 'xmin';
 
             % Create DFunctionDropDownLabel
@@ -205,7 +205,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             % Create xminSpinner
             app.xminSpinner = uispinner(app.DPlotTab);
             app.xminSpinner.FontColor = [0.0431 0.0392 0.051];
-            app.xminSpinner.Position = [83 389 100 22];
+            app.xminSpinner.Position = [83 378 100 22];
 
             % Create CustomFunctionEditFieldLabel
             app.CustomFunctionEditFieldLabel = uilabel(app.DPlotTab);
@@ -225,7 +225,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             % Create xmaxSpinnerLabel
             app.xmaxSpinnerLabel = uilabel(app.DPlotTab);
             app.xmaxSpinnerLabel.HorizontalAlignment = 'right';
-            app.xmaxSpinnerLabel.Position = [37 401 34 22];
+            app.xmaxSpinnerLabel.Position = [36 328 34 22];
             app.xmaxSpinnerLabel.Text = 'xmax';
 
             % Create ClearButton
@@ -239,7 +239,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             % Create xmaxSpinner
             app.xmaxSpinner = uispinner(app.DPlotTab);
             app.xmaxSpinner.FontColor = [0.0431 0.0392 0.051];
-            app.xmaxSpinner.Position = [83 401 100 22];
+            app.xmaxSpinner.Position = [82 328 100 22];
 
             % Create Label
             app.Label = uilabel(app.DPlotTab);
