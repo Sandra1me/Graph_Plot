@@ -1,23 +1,24 @@
 # Graph Plot
 
-![MainUI](https://github.com/user-attachments/assets/b2854935-b682-4ed4-a14b-1216f4e1ed0c)
+![Main2DUI](https://github.com/user-attachments/assets/d8a2edb2-b4a5-4a99-85c8-1d6eb32ea36a)
+
+![Main3DUI](https://github.com/user-attachments/assets/3da206c6-33f0-4c79-ae50-3268ad235f06)
 
 Create different types of graphs (curves, surfaces) to represent simple mathematical functions and their derivatives.
 
 ## Installation
 
-Download and double-click on the GraphPlot.mlapp to execute MATLAB and run the app. Alternatively, you can find the complete code in the GraphPlot_Code.m file.
+Download and double-click on the GraphPlot.mlapp to execute MATLAB and run the app. Alternatively, the complete code is in the GraphPlot_Code.m file.
 
 ## Usage
 
-Select the range for the x-axis (horizontal axis). The default value is from -10 to 10.
+Select the range for the x-axis (horizontal axis). The default value is from -10 to 10. When plotting a 3D graph, you will select a range for both x and y-axis.
 
-![App UI](https://github.com/user-attachments/assets/a57000d9-2d42-4952-ad58-c56d70e97da1)
-
+![setRange](https://github.com/user-attachments/assets/73127544-c1a4-4d4e-8e3c-8cb4447747c4)
 
 Then select the function to plot, or insert a custom one.
 
-![chooseTheFunction](https://github.com/user-attachments/assets/ce8901bc-2bb3-4ea3-9bba-aee7571bcf6a)
+![chooseTheFunction](https://github.com/user-attachments/assets/a26913df-ec7d-4994-9a02-a4d7545fb338)
 
 WARNING!
 
@@ -29,12 +30,17 @@ x.^2
 
 To plot the function, click the "Plot" button. The "Clear" button will clear the graph.
 
-![plottedGraph](https://github.com/user-attachments/assets/1be2205e-8a65-438e-9779-c07e406fbd29)
+![plot](https://github.com/user-attachments/assets/70189a3d-1f6a-486b-bcee-a93a1ceb32ec)
 
+With the 3D plot, you can drag the graph to rotate the view, and zoom in and out with your mouse wheel.
+
+To export a graph, click on the save as icon.
+
+![exportGraph](https://github.com/user-attachments/assets/5bfbbfac-4e08-4681-87a5-3e7dd8fb9e22)
 
 ## Roadmap
 
-I plan to add 3D plots shortly, with custom functions.
+I may add animated plots in the future.
 
 ## Contributing
 
