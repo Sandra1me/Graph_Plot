@@ -1,4 +1,4 @@
-# Graph Plot
+# 2D and 3D Graph Plot
 
 ![Main2DUI](https://github.com/user-attachments/assets/d8a2edb2-b4a5-4a99-85c8-1d6eb32ea36a)
 
