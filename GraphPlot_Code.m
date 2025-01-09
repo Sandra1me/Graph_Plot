@@ -175,7 +175,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             app.DFunctionDropDownLabel = uilabel(app.DPlotTab);
             app.DFunctionDropDownLabel.HorizontalAlignment = 'right';
             app.DFunctionDropDownLabel.FontColor = [0.0431 0.0392 0.051];
-            app.DFunctionDropDownLabel.Position = [19 140 70 22];
+            app.DFunctionDropDownLabel.Position = [18 95 70 22];
             app.DFunctionDropDownLabel.Text = '2D Function';
 
             % Create PlotButton
@@ -191,7 +191,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             app.DFunctionDropDown.Items = {'sin(x)', 'cos(x)', 'tan(x)', 'Custom'};
             app.DFunctionDropDown.ValueChangedFcn = createCallbackFcn(app, @DFunctionDropDownValueChanged, true);
             app.DFunctionDropDown.FontColor = [0.0431 0.0392 0.051];
-            app.DFunctionDropDown.Position = [104 140 100 22];
+            app.DFunctionDropDown.Position = [103 95 100 22];
             app.DFunctionDropDown.Value = 'sin(x)';
 
             % Create xminSpinner
@@ -204,14 +204,14 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             app.CustomFunctionEditFieldLabel.HorizontalAlignment = 'right';
             app.CustomFunctionEditFieldLabel.FontColor = [0.0431 0.0392 0.051];
             app.CustomFunctionEditFieldLabel.Visible = 'off';
-            app.CustomFunctionEditFieldLabel.Position = [19 98 96 22];
+            app.CustomFunctionEditFieldLabel.Position = [14 53 96 22];
             app.CustomFunctionEditFieldLabel.Text = 'Custom Function';
 
             % Create CustomFunctionEditField
             app.CustomFunctionEditField = uieditfield(app.DPlotTab, 'text');
             app.CustomFunctionEditField.FontColor = [0.0431 0.0392 0.051];
             app.CustomFunctionEditField.Visible = 'off';
-            app.CustomFunctionEditField.Position = [130 98 100 22];
+            app.CustomFunctionEditField.Position = [125 53 100 22];
             app.CustomFunctionEditField.Value = 'x.*sin(x)';
 
             % Create xmaxSpinnerLabel
@@ -238,7 +238,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             app.Label.HorizontalAlignment = 'center';
             app.Label.WordWrap = 'on';
             app.Label.FontColor = [0.0431 0.0392 0.051];
-            app.Label.Position = [37 187 145 112];
+            app.Label.Position = [37 174 145 125];
             app.Label.Text = {'WARNING!'; 'If you write a custom function, it is important to use the dot notation. '; 'Examples:'; 'x.*sin(x)'; 'x.^2'; '2*sin(x)'};
 
             % Create DPlotTab_2
@@ -276,7 +276,7 @@ classdef GraphPlot_Code < matlab.apps.AppBase
             app.Label_2.HorizontalAlignment = 'center';
             app.Label_2.WordWrap = 'on';
             app.Label_2.FontColor = [0.0431 0.0392 0.051];
-            app.Label_2.Position = [28 174 145 112];
+            app.Label_2.Position = [28 161 145 125];
             app.Label_2.Text = {'WARNING!'; 'If you write a custom function, it is important to use the dot notation. '; 'Examples:'; 'x.*sin(x)'; 'x.^2'; '2*sin(x)'};
 
             % Create xminyminSpinnerLabel
